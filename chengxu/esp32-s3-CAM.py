@@ -45,7 +45,7 @@ print("camera ok")
 
 ROAD_OUT = Pin(45, Pin.OUT)      # 输出给ESP32
 straight_cnt = 0
-STRAIGHT_CNT_TH = 15            # 连续15次≈750ms
+STRAIGHT_CNT_TH = 20            # 连续20次≈1000ms
 
 #=====================
 # 判断道路
